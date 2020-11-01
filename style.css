@@ -8,11 +8,13 @@ html { box-sizing: border-box; }
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: aliceblue;
 }
 
 h2 {
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
 .paticka {
@@ -26,6 +28,35 @@ h2 {
 }
 
 /* -------------------------------------------------- */
+.recepty-kategorie,
+.recepty-komentare {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.recept-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hlavni-recept{
+    background-image: url("burger.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.recept-nazev {
+    font-size: 1.75rem;
+    position: absolute;
+    bottom: 0.5em;    
+}
+
+
+
 
 /*
 pouzivame mobile first pristup
